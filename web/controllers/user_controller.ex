@@ -1,7 +1,4 @@
 defmodule Rumbl.UserController do
-
-  import Rumbl.Auth, only: [authenticate_user: 2]
-
   use Rumbl.Web, :controller
 
   alias Rumbl.User
